@@ -18,7 +18,7 @@
                         <img src="{{ asset('assets/images/logo.svg') }}" alt="CodeLino">
                     </div>
                     <div class="flex xl:order-2 space-x-3 xl:space-x-0 rtl:space-x-reverse xl:hidden">
-                        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg xl:hidden bg-gray-500 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-50 dark:hover:bg-gray-300 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg xl:hidden bg-gray-100 dark:bg-gray-500 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-50 dark:hover:bg-gray-300 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                             <span class="sr-only">Open main menu</span>
                             <svg class="w-5 h-5 text-sky-400 dark:text-sky-900" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
@@ -105,12 +105,12 @@
             <div class="container mx-auto pb-5">
                 <div class="bg-white dark:bg-[#0C4A6E] rounded-2xl text-center py-8">
                     <p class="text-6xl py-12 text-sky-950 dark:text-sky-50 font-bold">طعم خوب <span class="text-sky-400">کد آزاد</span></p>
-                    <p class="text-2xl text-sky-50">منبعی ساده و خلاق برای کد های شما</p>
+                    <p class="text-2xl text-black dark:text-sky-50">منبعی ساده و خلاق برای کد های شما</p>
                     <div class="py-10">
                         <a href="#" class="bg-sky-400 text-white p-4 rounded-xl me-1">تست سرعت</a>
                         <a href="#" class="bg-white text-sky-950 p-4 rounded-xl ms-1">دیدن نمونه کارها</a>
                     </div>
-                    <div class="container mx-auto bg-white dark:bg-[#082F49] rounded-xl w-1/2 text-white text-start py-6" dir="ltr">
+                    <div class="container mx-auto bg-white dark:bg-[#082F49] rounded-xl w-1/2 text-black dark:text-white text-start py-6" dir="ltr">
                         <pre>&lt;pre&gt;<br>&lt;code&gt;<br>&lt;?php<br>// نمونه کد پی اچ پی شما اینجا قرار می گیرد<br>echo "Hello World!";<br>?&gt;<br>&lt;/code&gt;<br>&lt;/pre&gt;</pre>
                     </div>
                     <div class="">
@@ -120,9 +120,9 @@
             </div>
         </section>
         <section>
-            <div class="container mx-auto grid gap-2 grid-cols-2 my-14">
+            <div class="container mx-auto grid gap-2 grid-cols-1 md:grid-cols-2 my-14">
                 <div class="me-4">
-                    <h3 class="text-4xl pb-12 text-sky-950 dark:text-sky-50 font-bold">تکه کدهای <span class="text-sky-400">کاربردی</span></h3>
+                    <h3 class="text-4xl text-center md:text-start pb-12 text-sky-950 dark:text-sky-50 font-bold">تکه کدهای <span class="text-sky-400">کاربردی</span></h3>
                     <p class="text-justify text-2xl dark:text-sky-50">اگه حوصله نوشتن بعضی کدها رو نداری، میتونی از اینجا کدهایی که لازم داری رو پیدا کنی و همونطور که میخوای ازشون استفاده کنی یا گسترشش بدی</p>
                     <br><br><a href="#" class="bg-sky-400 text-white rounded-lg p-2">ادامه مطلب</a>
                 </div>
@@ -132,12 +132,12 @@
             </div>
         </section>
         <section>
-            <div class="container mx-auto grid gap-2 grid-cols-2 my-14">
+            <div class="container mx-auto grid gap-2 grid-cols-1 md:grid-cols-2 my-14">
                 <div class="me-4">
                     <img src="{{ asset('assets/images/vscode.svg') }}" alt="" class="me-auto w-full">
                 </div>
                 <div class="ms-4">
-                    <h3 class="text-4xl pb-12 text-sky-950 dark:text-sky-50 font-bold">فروشگاه <span class="text-sky-400">محصولات</span></h3>
+                    <h3 class="text-4xl text-center md:text-start pb-12 text-sky-950 dark:text-sky-50 font-bold">فروشگاه <span class="text-sky-400">محصولات</span></h3>
                     <p class="text-justify text-2xl dark:text-sky-50">ممکنه برات پیش اومده باشه که فرصت کافی نداشته باشی تا بخوای سایت رو راه‌اندازی کنی. بنابراین میتونی از اینجا هر سایتی خواستی برای خودت داشته باشی</p>
                     <br><br><a href="#" class="bg-sky-400 text-white rounded-lg p-2">رفتن به فروشگاه</a>
                 </div>
@@ -145,9 +145,9 @@
             </div>
         </section>
         <section>
-            <div class="container mx-auto grid gap-2 grid-cols-2 my-14">
+            <div class="container mx-auto grid gap-2 grid-cols-1 md:grid-cols-2 my-14">
                 <div class="me-4">
-                    <h3 class="text-4xl pb-12 text-sky-950 dark:text-sky-50 font-bold">ربات <span class="text-sky-400">تلگرام</span></h3>
+                    <h3 class="text-4xl text-center md:text-start pb-12 text-sky-950 dark:text-sky-50 font-bold">ربات <span class="text-sky-400">تلگرام</span></h3>
                     <p class="text-justify text-2xl dark:text-sky-50">اگه دنبال ربات هایی میگردی که تا حد امکان کارهات رو راحت تر کنی، میتونی از ربات های ما استفاده کنی.نگران نباش! برای اینکه مطمئن بشی ربات ها همون چیزی هستن که میخوای، میتونی همینجا به صورت آنلاین تستش کنی</p>
                     <br><br><a href="#" class="bg-sky-400 text-white rounded-lg p-2">ادامه مطلب</a>
                 </div>
