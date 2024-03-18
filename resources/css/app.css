@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/*noinspection CssUnknownTarget*/
+@font-face {
+    font-family: 'Kalameh';
+    src: url("../../public/assets/fonts/Kalameh/KalamehWeb-Light.woff") format("woff");
+}
