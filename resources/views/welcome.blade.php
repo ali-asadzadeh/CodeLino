@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-fa" dir="rtl">
+<html lang="fa-IR" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -168,38 +168,146 @@
             <div class="container mx-auto text-center">
                 <h3 class="text-4xl pb-12 text-sky-950 dark:text-sky-50 text-center font-bold">مطالب <span class="text-sky-400">وبلاگ</span></h3>
                 <p class="text-2xl dark:text-sky-50 mx-auto">اگه میخوای حرفه ای بشی مقالات مارو بخون شاید تو این راه بهت کمک کنه</p>
-                <div class="grid gap-4 grid-cols-1 md:grid-cols-2 2xl:grid-cols-4">
-                    <div class="max-w-sm bg-white rounded-lg dark:bg-gray-800 relative">
-                        <a href="#" class="absolute -top-16 start-16">
-                            <img class="rounded-t-lg " src="{{ asset('assets/images/card.svg') }}" alt="">
+                <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+                    <div class="bg-white dark:bg-[#0C4A6E] rounded-lg mt-40">
+                        <a href="#" class="">
+                            <img class="rounded-t-lg w-11/12 mx-auto -mt-32" src="{{ asset('assets/images/card.svg') }}" alt="">
                         </a>
                         <div class="p-5">
                             <a href="#">
-                                <h5 class="mb-2 text-xl font-bold tracking-tight text-sky-500 dark:text-white">معرفی 6 پنل مدیریتی آماده (Materyal Design)</h5>
+                                <h5 class="mb-2 text-xl font-bold tracking-tight text-sky-500">معرفی 6 پنل مدیریتی آماده (Materyal Design)</h5>
                             </a>
-                            <p class="mb-3 font-normal text-justify text-black dark:text-gray-400">در این پست شما با ۶ پنل مدیریتی دیزاین سیستم متریال آشنا میشوید برای دیدن ادامه پست بر روی دکمه ادامه مطلب کلیک کنید</p>
-                            <div class="text-start border-t flex justify-between">
-                                <p class="text-xl">امتیاز</p>
-                               <div>
-                                   <a href="#">
-                                       <i class="fa-light fa-star text-xs"></i>
-                                   </a>
-                                   <a href="#">
-                                       <i class="fa-solid fa-star text-amber-400 text-xs"></i>
-                                   </a>
-                                   <a href="#">
-                                       <i class="fa-solid fa-star text-amber-400 text-xs"></i>
-                                   </a>
-                                   <a href="#">
-                                       <i class="fa-solid fa-star text-amber-400 text-xs"></i>
-                                   </a>
-                                   <a href="#">
-                                       <i class="fa-solid fa-star text-amber-400 text-xs"></i>
-                                   </a>
-                               </div>
+                            <p class="mb-3 font-normal text-justify text-black dark:text-gray-50">در این پست شما با ۶ پنل مدیریتی دیزاین سیستم متریال آشنا میشوید برای دیدن ادامه پست بر روی دکمه ادامه مطلب کلیک کنید</p>
+                            <div class="text-start border-t border-sky-50 flex justify-between">
+                                <p class="text-md dark:text-sky-50">امتیاز</p>
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-light fa-star text-xs dark:text-white"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+                                    </a>
+                                </div>
                             </div>
                             <div class="text-end mt-3">
-                                <a href="#" class="px-3 py-2 text-sm font-medium text-white bg-sky-500 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                <a href="#" class="px-3 py-2 text-sm font-medium text-white bg-sky-500 rounded-lg">
+                                    ادامه مطلب
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white dark:bg-[#0C4A6E] rounded-lg mt-40">
+                        <a href="#" class="">
+                            <img class="rounded-t-lg w-11/12 mx-auto -mt-32" src="{{ asset('assets/images/card.svg') }}" alt="">
+                        </a>
+                        <div class="p-5">
+                            <a href="#">
+                                <h5 class="mb-2 text-xl font-bold tracking-tight text-sky-500">معرفی 6 پنل مدیریتی آماده (Materyal Design)</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-justify text-black dark:text-gray-50">در این پست شما با ۶ پنل مدیریتی دیزاین سیستم متریال آشنا میشوید برای دیدن ادامه پست بر روی دکمه ادامه مطلب کلیک کنید</p>
+                            <div class="text-start border-t border-sky-50 flex justify-between">
+                                <p class="text-md dark:text-sky-50">امتیاز</p>
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-light fa-star text-xs dark:text-white"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-end mt-3">
+                                <a href="#" class="px-3 py-2 text-sm font-medium text-white bg-sky-500 rounded-lg">
+                                    ادامه مطلب
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white dark:bg-[#0C4A6E] rounded-lg mt-40">
+                        <a href="#" class="">
+                            <img class="rounded-t-lg w-11/12 mx-auto -mt-32" src="{{ asset('assets/images/card.svg') }}" alt="">
+                        </a>
+                        <div class="p-5">
+                            <a href="#">
+                                <h5 class="mb-2 text-xl font-bold tracking-tight text-sky-500">معرفی 6 پنل مدیریتی آماده (Materyal Design)</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-justify text-black dark:text-gray-50">در این پست شما با ۶ پنل مدیریتی دیزاین سیستم متریال آشنا میشوید برای دیدن ادامه پست بر روی دکمه ادامه مطلب کلیک کنید</p>
+                            <div class="text-start border-t border-sky-50 flex justify-between">
+                                <p class="text-md dark:text-sky-50">امتیاز</p>
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-light fa-star text-xs dark:text-white"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-end mt-3">
+                                <a href="#" class="px-3 py-2 text-sm font-medium text-white bg-sky-500 rounded-lg">
+                                    ادامه مطلب
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white dark:bg-[#0C4A6E] rounded-lg mt-40">
+                        <a href="#" class="">
+                            <img class="rounded-t-lg w-11/12 mx-auto -mt-32" src="{{ asset('assets/images/card.svg') }}" alt="">
+                        </a>
+                        <div class="p-5">
+                            <a href="#">
+                                <h5 class="mb-2 text-xl font-bold tracking-tight text-sky-500">معرفی 6 پنل مدیریتی آماده (Materyal Design)</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-justify text-black dark:text-gray-50">در این پست شما با ۶ پنل مدیریتی دیزاین سیستم متریال آشنا میشوید برای دیدن ادامه پست بر روی دکمه ادامه مطلب کلیک کنید</p>
+                            <div class="text-start border-t border-sky-50 flex justify-between">
+                                <p class="text-md dark:text-sky-50">امتیاز</p>
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-light fa-star text-xs dark:text-white"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-end mt-3">
+                                <a href="#" class="px-3 py-2 text-sm font-medium text-white bg-sky-500 rounded-lg">
                                     ادامه مطلب
                                 </a>
                             </div>
@@ -279,7 +387,7 @@
                         <h3 class="py-4 text-xl">خدمات مشتریان</h3>
                         <ul>
                             <li>پاسخ به پرسش های متداول</li>
-                            <li>رویه بازگرداندن کالا</li>
+                            <li>رویه بازگردان کالا</li>
                             <li>شرایط استفاده</li>
                             <li>گزارش باگ</li>
                         </ul>
@@ -335,17 +443,18 @@
                         <h3 class="my-5">با ثبت ایمیل از به روز ترین اخبار با خبر باشید</h3>
                         <form class="md:w-1/2 mx-auto xl:w-full">
                             <div class="relative">
-                                <input type="email" id="default-search" class="block w-full p-4 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="در این قسمت ایمیل خود را وارد کنید" required />
-                                <button type="submit" class="text-white absolute end-2.5 bottom-2.5 bg-sky-400 hover:bg-blue-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ">ثبت ایمیل</button>
+                                <label for="default-search"></label>
+                                <input type="email" id="default-search" class="block w-full p-4 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 " placeholder="در این قسمت ایمیل خود را وارد کنید" required />
+                                <button type="submit" class="text-white absolute end-2.5 bottom-2.5 bg-sky-400 font-medium rounded-lg text-sm px-4 py-2 ">ثبت ایمیل</button>
                             </div>
                         </form>
                     </div>
                 </div>
                 <div class="container mx-auto justify-between text-white py-10 grid gap-2 grid-cols-1 xl:grid-cols-2">
-                    <div class="mx-auto">
+                    <div class="mx-auto xl:mx-0">
                         <a href="#" class="border p-2 rounded-lg">بازگشت به بالا</a>
                     </div>
-                    <div class="mx-auto mt-3">
+                    <div class="mx-auto xl:mx-0 xl:ms-auto   mt-3">
                         <p>
                             طراحی شده با عشق توسط
                             <a href="#">
