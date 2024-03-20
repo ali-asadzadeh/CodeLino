@@ -17,7 +17,8 @@ export default {
         },
         extend: {
             fontFamily: {
-                Kalameh : ['Kalameh']
+                Kalameh : ['Kalameh'],
+                Yekan : ['Yekan']
             }
         },
     },

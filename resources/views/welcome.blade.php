@@ -317,7 +317,7 @@
             </div>
         </section>
     </main>
-    <footer class="">
+    <footer>
         <section class="bg-gray-50 dark:bg-[#082f49]">
             <div class="container mx-auto">
                 <div class="flex pt-10">
