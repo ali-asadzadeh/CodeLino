@@ -4,10 +4,10 @@
 /*noinspection CssUnknownTarget*/
 @font-face {
     font-family: 'Kalameh';
-    font-weight: auto;
-    src: url("../../public/assets/fonts/Kalameh/FarsiNumerals/WebFonts/_eot/KalamehWeb\(FaNum\)-Medium.eot") format("eot"),
-    url("../../public/assets/fonts/Kalameh/FarsiNumerals/WebFonts/_Woff/KalamehWeb\(FaNum\)-Medium.woff") format("woff"),
-    url("../../public/assets/fonts/Kalameh/FarsiNumerals/WebFonts/_Woff2/KalamehWeb\(FaNum\)-Medium.woff2") format("woff2");
+    font-weight: 500;
+    src: url("../../public/assets/fonts/Kalameh/FarsiNumerals/WebFonts/_eot/KalamehWeb\(FaNum\)-Regular.eot") format("eot"),
+    url("../../public/assets/fonts/Kalameh/FarsiNumerals/WebFonts/_Woff/KalamehWeb\(FaNum\)-Regular.woff") format("woff"),
+    url("../../public/assets/fonts/Kalameh/FarsiNumerals/WebFonts/_Woff2/KalamehWeb\(FaNum\)-Regular.woff2") format("woff2");
 }
 @font-face {
     font-family: 'Kalameh';
@@ -78,4 +78,7 @@
     font-weight: 950;
     src: url('../../public/assets/fonts/YekanBakh/YekanBakhFamily/Webfonts/fonts/woff/Yekan Bakh-ExtraBlack.woff') format('woff'),
     url('../../public/assets/fonts/YekanBakh/YekanBakhFamily/Webfonts/fonts/woff2/Yekan Bakh-ExtraBlack.woff2') format('woff2');
+}
+input::-webkit-search-cancel-button {
+    display: none;
 }

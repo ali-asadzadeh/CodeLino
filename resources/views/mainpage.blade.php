@@ -11,14 +11,14 @@
 </head>
 <body class="font-Kalameh">
     <header>
-        <section>
-            <nav class="bg-gray-50 dark:bg-lightgray-500">
+        <section class="relative">
+            <nav class="bg-gray-50 dark:bg-lightgray-500 w-full fixed z-10">
                 <div class="container mx-auto flex flex-wrap items-center justify-between py-4">
                     <div class="xl:hidden">
                         <img src="{{ asset('assets/images/logo.svg') }}" alt="CodeLino">
                     </div>
                     <div class="flex xl:order-2 space-x-3 xl:space-x-0 rtl:space-x-reverse xl:hidden">
-                        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg xl:hidden bg-gray-100 dark:bg-gray-500 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-50 dark:hover:bg-gray-300 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-0.50 justify-center text-sm text-gray-500 rounded-lg xl:hidden bg-gray-100 dark:bg-gray-500 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-50 dark:hover:bg-gray-300 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                             <span class="sr-only">Open main menu</span>
                             <svg class="w-5 h-5 text-sky-400 dark:text-sky-900" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
@@ -70,7 +70,7 @@
                             </button>
                         </li>
                         <li class="my-auto text-center order-4">
-                            <a href="#" class="bg-sky-400 text-white hover:text-sky-400 hover:bg-white border border-sky-400 rounded-lg p-2 transition duration-300">
+                            <a href="#" class="bg-sky-400 text-white hover:text-sky-400 hover:bg-white border border-sky-400 rounded-lg px-2 py-1 transition duration-300">
                                 ورود / ثبت نام
                             </a>
                         </li>
@@ -81,15 +81,16 @@
     </header>
     <main class="bg-gray-50 dark:bg-lightgray-500">
         <section>
-            <div class="container mx-auto pb-5">
+            <div class="container mx-auto pt-20 pb-5">
                 <div class="bg-white dark:bg-skyblue-600 rounded-2xl text-center py-10">
                     <p class="text-6xl py-12 text-skyblue-600 dark:text-sky-50 font-bold">طعم خوب <span class="text-sky-400">کد آزاد</span></p>
                     <p class="text-2xl text-black dark:text-sky-50">منبعی ساده و خلاق برای کد های شما</p>
                     <div class="py-10">
-                        <a href="#" class="bg-sky-400 text-white hover:text-sky-400 hover:bg-white border border-sky-400 transition duration-300 p-4 rounded-xl me-1">تست سرعت</a>
-                        <a href="#" class="text-sky-400 bg-white hover:bg-sky-400 hover:text-white border border-sky-400 transition duration-300 p-4 rounded-xl ms-1">دیدن نمونه کارها</a>
+                        <a href="#" class="bg-sky-400 text-white hover:text-sky-400 hover:bg-white border border-sky-400 transition duration-300 p-2 rounded-xl me-1">تست سرعت</a>
+                        <a href="#" class="text-sky-400 bg-white hover:bg-sky-400 hover:text-white border border-sky-400 transition duration-300 p-2 rounded-xl ms-1">دیدن نمونه کارها</a>
                     </div>
-                    <div class="container mx-auto bg-white dark:bg-lightgray-500 rounded-xl w-1/2 text-black dark:text-white text-start py-6" dir="ltr">
+
+                    <div class="container mx-auto bg-white dark:bg-lightgray-500 rounded-2xl w-1/2 text-black font-medium  dark:text-white text-start py-6" dir="ltr">
                         <pre>&lt;pre&gt;<br>&lt;code&gt;<br>&lt;?php<br>// نمونه کد پی اچ پی شما اینجا قرار می گیرد<br>echo "Hello World!";<br>?&gt;<br>&lt;/code&gt;<br>&lt;/pre&gt;</pre>
                     </div>
                     <div class="">
@@ -159,6 +160,144 @@
                 <br><br><a href="#" class="bg-sky-400 text-white hover:text-sky-400 hover:bg-white border border-sky-400 rounded-lg p-2 transition duration-300">رفتن به فروشگاه</a>
                 <img src="{{ asset('assets/images/elementor.svg') }}" alt="" class="block dark:hidden mx-auto w-3/4 my-10">
                 <img src="{{ asset('assets/images/elementordark.svg') }}" alt="" class="hidden dark:block mx-auto w-3/4 my-10">
+{{--                <div class="bg-white dark:bg-skyblue-600 rounded-2xl w-3/4 mx-auto grid gap-5 grid-cols-10 my-32 p-3">--}}
+{{--                    <div class="col-span-3 bg-lightgray-200 dark:bg-lightgray-500 rounded-2xl border border-lightgray-300 dark:border-skyblue-400 border-dashed relative">--}}
+{{--                        <div class="bg-lightgray-600 dark:bg-skyblue-400 me-5 border border-white dark:border-skyblue-50 rounded-2xl absolute -top-10 -right-10">--}}
+{{--                            <div class="grid grid-cols-3 text-white bg-sky-500 rounded-t-2xl py-2">--}}
+{{--                                <div class="text-start ms-3 my-auto">--}}
+{{--                                    <i class="fa-light fa-chevron-right fa-2xl"></i>--}}
+{{--                                </div>--}}
+{{--                                <div>--}}
+{{--                                    <p class="text-2xl ">--}}
+{{--                                        elementor--}}
+{{--                                    </p>--}}
+{{--                                </div>--}}
+{{--                                <div class="text-end me-3 my-auto">--}}
+{{--                                    <i class="fa-light fa-grid-2 fa-xl"></i>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="grid gap-y-5 gap-x-8 grid-cols-2 mx-5 py-5">--}}
+{{--                                <div class="bg-white dark:bg-lightgray-500 rounded-lg col-span-2 text-start shadow animate-pulse">--}}
+{{--                                    <div class="h-2 bg-lightgray-700 dark:bg-white rounded-full w-2/5 m-3 animate-pulse"></div>--}}
+{{--                                </div>--}}
+{{--                                <div class="bg-white dark:bg-lightgray-500 rounded-lg shadow animate-pulse">--}}
+{{--                                    <i class="fa-light fa-image mx-auto text-4xl text-skyblue-200 animate-pulse mt-3 mb-1"></i>--}}
+{{--                                    <div class="h-0.5 bg-lightgray-700 dark:bg-skyblue-200 rounded-full w-1/2 my-1 animate-pulse mx-auto"></div>--}}
+{{--                                    <div class="h-0.5 bg-lightgray-700 dark:bg-skyblue-200 rounded-full w-1/3 mb-2 animate-pulse mx-auto"></div>--}}
+{{--                                </div>--}}
+{{--                                <div class="bg-white dark:bg-lightgray-500 rounded-lg shadow animate-pulse">--}}
+{{--                                    <i class="fa-light fa-image mx-auto text-4xl text-skyblue-200 animate-pulse mt-3 mb-1"></i>--}}
+{{--                                    <div class="h-0.5 bg-lightgray-700 dark:bg-skyblue-200 rounded-full w-1/2 my-1 animate-pulse mx-auto"></div>--}}
+{{--                                    <div class="h-0.5 bg-lightgray-700 dark:bg-skyblue-200 rounded-full w-1/3 mb-2 animate-pulse mx-auto"></div>--}}
+{{--                                </div>--}}
+{{--                                <div class="bg-white dark:bg-lightgray-500 rounded-lg shadow animate-pulse">--}}
+{{--                                    <i class="fa-light fa-image mx-auto text-4xl text-skyblue-200 animate-pulse mt-3 mb-1"></i>--}}
+{{--                                    <div class="h-0.5 bg-lightgray-700 dark:bg-skyblue-200 rounded-full w-1/2 my-1 animate-pulse mx-auto"></div>--}}
+{{--                                    <div class="h-0.5 bg-lightgray-700 dark:bg-skyblue-200 rounded-full w-1/3 mb-2 animate-pulse mx-auto"></div>--}}
+{{--                                </div>--}}
+{{--                                <div class="bg-lightgray-200 dark:bg-lightgray-500 rounded-lg shadow border border-dashed border-lightgray-300 dark:border-skyblue-500 relative animate-pulse">--}}
+{{--                                    <div class="bg-skyblue-700  pb-1 rounded-xl absolute -left-7 -top-4 shadow w-full">--}}
+{{--                                        <i class="fa-light fa-image mx-auto text-4xl text-white animate-pulse mt-3 mb-1"></i>--}}
+{{--                                        <div class="h-0.5 bg-white rounded-full w-1/2 my-1 animate-pulse mx-auto"></div>--}}
+{{--                                        <div class="h-0.5 bg-white rounded-full w-1/3 mb-2 animate-pulse mx-auto"></div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="bg-white dark:bg-lightgray-500 rounded-lg shadow animate-pulse">--}}
+{{--                                    <i class="fa-light fa-image mx-auto text-4xl text-skyblue-200 animate-pulse mt-3 mb-1"></i>--}}
+{{--                                    <div class="h-0.5 bg-lightgray-700 dark:bg-skyblue-200 rounded-full w-1/2 my-1 animate-pulse mx-auto"></div>--}}
+{{--                                    <div class="h-0.5 bg-lightgray-700 dark:bg-skyblue-200 rounded-full w-1/3 mb-2 animate-pulse mx-auto"></div>--}}
+{{--                                </div>--}}
+{{--                                <div class="bg-white dark:bg-lightgray-500 rounded-lg shadow animate-pulse">--}}
+{{--                                    <i class="fa-light fa-image mx-auto text-4xl text-skyblue-200 animate-pulse mt-3 mb-1"></i>--}}
+{{--                                    <div class="h-0.5 bg-lightgray-700 dark:bg-skyblue-200 rounded-full w-1/2 my-1 animate-pulse mx-auto"></div>--}}
+{{--                                    <div class="h-0.5 bg-lightgray-700 dark:bg-skyblue-200 rounded-full w-1/3 mb-2 animate-pulse mx-auto"></div>--}}
+{{--                                </div>--}}
+{{--                                <div class="bg-white dark:bg-lightgray-500 rounded-lg shadow animate-pulse">--}}
+{{--                                    <i class="fa-light fa-image mx-auto text-4xl text-skyblue-200 animate-pulse mt-3 mb-1"></i>--}}
+{{--                                    <div class="h-0.5 bg-lightgray-700 dark:bg-skyblue-200 rounded-full w-1/2 my-1 animate-pulse mx-auto"></div>--}}
+{{--                                    <div class="h-0.5 bg-lightgray-700 dark:bg-skyblue-200 rounded-full w-1/3 mb-2 animate-pulse mx-auto"></div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-span-7 bg-lightgray-200 dark:bg-lightgray-500 rounded-2xl dark:border-skyblue-400">--}}
+{{--                        <div class="rounded-2xl m-5 pb-12">--}}
+{{--                            <div class="grid gap-5 grid-cols-12 relative">--}}
+{{--                                <div class="col-span-12 grid grid-cols-12 rounded-xl bg-skyblue-700 shadow-inner animate-pulse px-3 py-4">--}}
+{{--                                    <div class="col-span-1 animate-pulse">--}}
+{{--                                        <i class="fa-light fa-image text-white text-6xl animate-pulse"></i>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="col-span-11 my-auto ps-4 animate-pulse">--}}
+{{--                                        <div class="bg-white h-2 w-1/4 rounded-full mt-2 animate-pulse"></div>--}}
+{{--                                        <div class="bg-skyblue-300 h-2 w-4/4 rounded-full my-2 animate-pulse"></div>--}}
+{{--                                        <div class="bg-skyblue-300 h-2 w-3/4 rounded-full my-2 animate-pulse"></div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="col-span-4 animate-pulse">--}}
+{{--                                    <div class="border border-skyblue-200 rounded-xl shadow shadow-skyblue-200 pt-5 pb-8 bg-white dark:bg-skyblue-400 animate-pulse">--}}
+{{--                                        <i class="fa-light fa-image text-skyblue-200 text-6xl shadow animate-pulse"></i>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="bg-skyblue-300 dark:bg-skyblue-600 shadow h-1.5 w-2/4 rounded-full mt-5 animate-pulse"></div>--}}
+{{--                                    <div class="bg-skyblue-300 dark:bg-skyblue-600 shadow h-1.5 w-4/4 rounded-full my-2 animate-pulse"></div>--}}
+{{--                                    <div class="bg-skyblue-300 dark:bg-skyblue-600 shadow h-1.5 w-3/4 rounded-full my-2 animate-pulse"></div>--}}
+{{--                                </div>--}}
+{{--                                <div class="col-span-4 animate-pulse">--}}
+{{--                                    <div class="rounded-xl pt-5 pb-8 bg-white dark:bg-skyblue-400 animate-pulse">--}}
+{{--                                        <i class="fa-light fa-image text-skyblue-200 text-6xl shadow animate-pulse"></i>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="bg-skyblue-300 dark:bg-skyblue-600 shadow h-1.5 w-2/4 rounded-full mt-5 animate-pulse"></div>--}}
+{{--                                    <div class="bg-skyblue-300 dark:bg-skyblue-600 shadow h-1.5 w-4/4 rounded-full my-2 animate-pulse"></div>--}}
+{{--                                    <div class="bg-skyblue-300 dark:bg-skyblue-600 shadow h-1.5 w-3/4 rounded-full my-2 animate-pulse"></div>--}}
+{{--                                </div>--}}
+{{--                                <div class="col-span-4 bg-lightgray-200 dark:bg-skyblue-400 rounded-xl border-2 border-dotted border-lightgray-300 dark:border-skyblue-50 animate-pulse">--}}
+{{--                                </div>--}}
+{{--                                <div class="bg-white dark:bg-skyblue-600 border border-skyblue-200 rounded-xl py-2 px-3 grid gap-5 grid-cols-3 absolute top-36 -left-28">--}}
+{{--                                    <div class="col-span-1 row-span-2 bg-skyblue-700 rounded-lg p-1 animate-pulse place-content-end">--}}
+{{--                                        <div class="bg-white dark:bg-lightgray-500 shadow h-1 w-1/3 rounded-full my-1 animate-pulse"></div>--}}
+{{--                                        <div class="bg-white dark:bg-lightgray-500 shadow h-0.5 w-3/4 rounded-full my-1 animate-pulse"></div>--}}
+{{--                                        <div class="bg-white dark:bg-lightgray-500 shadow h-0.5 w-3/5 rounded-full my-1 animate-pulse"></div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="col-span-2 grid grid-cols-3 animate-pulse">--}}
+{{--                                        <div class="border-2 col-span-1 animate-pulse border-skyblue-200 dark:border-skyblue-50 h-14 w-14 rounded-lg"></div>--}}
+{{--                                        <div class="col-span-2 ms-1 my-auto animate-pulse">--}}
+{{--                                            <div class="bg-skyblue-900 dark:bg-lightgray-500 shadow h-1.5 w-2/3 rounded-full my-2 animate-pulse"></div>--}}
+{{--                                            <div class="bg-skyblue-900 dark:bg-lightgray-500 shadow h-1.5 w-4/4 rounded-full my-2 animate-pulse"></div>--}}
+{{--                                            <div class="bg-skyblue-900 dark:bg-lightgray-500 shadow h-1.5 w-3/4 rounded-full my-2 animate-pulse"></div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="col-span-2 grid grid-cols-3 animate-pulse">--}}
+{{--                                        <div class="border-2 col-span-1 animate-pulse border-skyblue-200 dark:border-skyblue-50 h-14 w-14 rounded-lg"></div>--}}
+{{--                                        <div class="col-span-2 ms-1 my-auto animate-pulse">--}}
+{{--                                            <div class="bg-skyblue-900 dark:bg-lightgray-500 shadow h-1.5 w-2/3 rounded-full my-2 animate-pulse"></div>--}}
+{{--                                            <div class="bg-skyblue-900 dark:bg-lightgray-500 shadow h-1.5 w-4/4 rounded-full my-2 animate-pulse"></div>--}}
+{{--                                            <div class="bg-skyblue-900 dark:bg-lightgray-500 shadow h-1.5 w-3/4 rounded-full my-2 animate-pulse"></div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="col-span-6 grid gap-10 grid-cols-6 bg-white dark:bg-skyblue-400 border-2 border-dotted border-lightgray-200 dark:border-skyblue-50 rounded-xl px-2 py-4 animate-pulse">--}}
+{{--                                    <div class="col-span-1 text-start animate-pulse">--}}
+{{--                                        <i class="fa-light fa-image text-skyblue-200 dark:bg-lightgray-500 px-1 rounded-xl text-5xl shadow animate-pulse"></i>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="col-span-5 my-auto ms-2 animate-pulse">--}}
+{{--                                        <div class="bg-skyblue-900 dark:bg-lightgray-500 shadow h-2 w-1/4 rounded-full my-2 animate-pulse"></div>--}}
+{{--                                        <div class="bg-skyblue-900 dark:bg-lightgray-500 shadow h-1.5 w-4/4 rounded-full my-1 animate-pulse"></div>--}}
+{{--                                        <div class="bg-skyblue-900 dark:bg-lightgray-500 shadow h-1.5 w-3/4 rounded-full my-1 animate-pulse"></div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="col-span-6 grid gap-10 grid-cols-6 bg-white dark:bg-skyblue-400 border-2 border-dotted border-lightgray-200 dark:border-skyblue-50 rounded-xl px-2 py-4 animate-pulse">--}}
+{{--                                    <div class="col-span-1 text-start animate-pulse">--}}
+{{--                                        <i class="fa-light fa-image text-skyblue-200 dark:bg-lightgray-500 px-1 rounded-xl text-5xl shadow animate-pulse"></i>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="col-span-5 my-auto ms-2 animate-pulse">--}}
+{{--                                        <div class="bg-skyblue-900 dark:bg-lightgray-500 shadow h-2 w-1/4 rounded-full my-2 animate-pulse"></div>--}}
+{{--                                        <div class="bg-skyblue-900 dark:bg-lightgray-500 shadow h-1.5 w-4/4 rounded-full my-1 animate-pulse"></div>--}}
+{{--                                        <div class="bg-skyblue-900 dark:bg-lightgray-500 shadow h-1.5 w-3/4 rounded-full my-1 animate-pulse"></div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
         </section>
         <section>
@@ -196,7 +335,7 @@
                                 </div>
                             </div>
                             <div class="text-end mt-3">
-                                <a href="#" class="px-3 py-2 text-sm font-medium text-white bg-sky-500 hover:bg-white hover:text-sky-500 border border-sky-500 transition duration-300 rounded-lg">
+                                <a href="#" class="px-3 py-1 text-sm font-medium text-white bg-sky-500 hover:bg-white hover:text-sky-500 border border-sky-500 transition duration-300 rounded-lg">
                                     ادامه مطلب
                                 </a>
                             </div>
@@ -232,7 +371,7 @@
                                 </div>
                             </div>
                             <div class="text-end mt-3">
-                                <a href="#" class="px-3 py-2 text-sm font-medium text-white bg-sky-500 hover:bg-white hover:text-sky-500 border border-sky-500 transition duration-300 rounded-lg">
+                                <a href="#" class="px-3 py-1 text-sm font-medium text-white bg-sky-500 hover:bg-white hover:text-sky-500 border border-sky-500 transition duration-300 rounded-lg">
                                     ادامه مطلب
                                 </a>
                             </div>
@@ -268,7 +407,7 @@
                                 </div>
                             </div>
                             <div class="text-end mt-3">
-                                <a href="#" class="px-3 py-2 text-sm font-medium text-white bg-sky-500 hover:bg-white hover:text-sky-500 border border-sky-500 transition duration-300 rounded-lg">
+                                <a href="#" class="px-3 py-1 text-sm font-medium text-white bg-sky-500 hover:bg-white hover:text-sky-500 border border-sky-500 transition duration-300 rounded-lg">
                                     ادامه مطلب
                                 </a>
                             </div>
@@ -304,7 +443,7 @@
                                 </div>
                             </div>
                             <div class="text-end mt-3">
-                                <a href="#" class="px-3 py-2 text-sm font-medium text-white bg-sky-500 hover:bg-white hover:text-sky-500 border border-sky-500 transition duration-300 rounded-lg">
+                                <a href="#" class="px-3 py-1 text-sm font-medium text-white bg-sky-500 hover:bg-white hover:text-sky-500 border border-sky-500 transition duration-300 rounded-lg">
                                     ادامه مطلب
                                 </a>
                             </div>
@@ -328,7 +467,7 @@
                 <div>
                     <p class="text-md text-justify leading-relaxed text-lightgray-50 dark:text-sky-50">با کد لینو، به دنیای کدنویسی و تکنولوژی خوش آمدید! در وب سایت کد لینو، تجربه‌ای فوق‌العاده از کد های کاربردی، ربات‌های تلگرامی پیشرفته و وبجت‌های المنتور با شما به اشتراک گذاشته می‌شود. با افتخار به ارائه راهکارهای نوآورانه پرداخته و همواره در خدمت شماستیم. بهترین ابزارها برای توسعه وب و افزایش بهره‌وری را در کد لینو پیدا کنید. ما از هر گونه پرسش یا درخواست شما خوشحال می‌شویم. اکتشاف کنید، تجربه کنید، و با ما به دنیایی پر از فراز و نشیب و تکنولوژی بپیوندید!</p>
                 </div>
-                <div class="bg-white dark:bg-skyblue-600 rounded-2xl py-4 my-20 grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4">
+                <div class="bg-white dark:bg-skyblue-600 rounded-2xl py-4 my-20 grid px-2 grid-cols-1 md:grid-cols-2 2xl:grid-cols-4">
                     <div class="grid gap-2 grid-cols-8 md:grid-cols-4 my-2">
                         <div class="mx-auto">
                             <i class="fa-thin fa-bookmark text-sky-400 fa-3x"></i>
@@ -374,11 +513,11 @@
                         </div>
                         <div class="text-lightgray-100 dark:text-sky-50 my-auto mx-auto hidden 2xl:block">|</div>
                     </div>
-                    <div class="grid gap-2 grid-cols-8 md:grid-cols-5 my-2">
+                    <div class="grid gap-2 grid-cols-8 md:grid-cols-4 my-2">
                         <div class="mx-auto">
                             <i class="fa-thin fa-paper-plane text-sky-400 fa-3x"></i>
                         </div>
-                        <div class="col-span-4">
+                        <div class="col-span-4 md:col-span-3">
                             <p class="text-md text-charcoal dark:text-sky-50">
                                 امکان مشارکت با دوستان
                                 <br>
